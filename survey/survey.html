@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>McFoodies Survey</title>
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/6d82e9c753.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="body">
+    <nav class="navbar navbar-dark bg-light nav">
+     
+        <span class="navbrand" class="navbar-brand mb-0 h1"
+          >MC<span class="foodies">Foodies</span></span
+        >
+      </div>
+    
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <small id="emailHelp" class="form-text text-muted">
+            <p>
+              This Survey will help us improve the quality of the services we
+              provide to our customers.
+              <br />
+              Have some ideas how to improve our product? Give us your feedback.
+              <br />
+              <span ><strong> Your opinion matters!!</strong></span>
+            </p>
+          </small>
+          <hr>
+        
+          <form
+            class=""
+            action="mailto:sophieedwardsoo99@gmail.com"
+            enctype="text/plain"
+          >
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <br />
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >This information will never be given to anyone else.</small
+              >
+            </div>
+          
+            <div class="form-row">
+              <div class="col-6">
+                <div class="form-group">
+                  <p class="text-left">
+                    1. Have you ever purchased a meal from McFoodies?
+                  </p>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      name="group1"
+                      type="radio"
+                      id="radio-379"
+                      value="option3"
+                    />
+                    <label class="form-check-label" for="radio-379">Yes</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      name="group1"
+                      type="radio"
+                      id="radio-479"
+                      value="option4"
+                    />
+                    <label class="form-check-label" for="radio-479">No</label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <p class="text-left">
+                    2. If Yes, how often do you order?
+                  </p>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      name="group1"
+                      type="radio"
+                      id="radio-379"
+                      value="option3"
+                    />
+                    <label class="form-check-label" for="radio-379"
+                      >At least 3 times a week</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      name="group1"
+                      type="radio"
+                      id="radio-479"
+                      value="option4"
+                    />
+                    <label class="form-check-label" for="radio-479"
+                      >Less than three times a week</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      name="group1"
+                      type="radio"
+                      id="radio-479"
+                      value="option4"
+                    />
+                    <label class="form-check-label" for="radio-479"
+                      >Infrequently</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      name="group1"
+                      type="radio"
+                      id="radio-479"
+                      value="option4"
+                    />
+                    <label class="form-check-label" for="radio-479"
+                      >I can't say</label
+                    >
+                  </div>
+                </div>
+                <div class="form-group">
+                  <p class="text-left">
+                    3. What's your best meal on our menu?
+                  </p>
+                  <select class="custom-select">
+                    <option selected>Pick One</option>
+                    <option value="1">Jajangmyeon</option>
+                    <option value="2">Egg Fried Rice</option>
+                    <option value="3">Banga Soup</option>
+                  </select>
+                </div>
+                <div class="range">
+                  <label for="customRange2"
+                    >4. Please rate the efficiency of our delivery
+                    service</label
+                  >
+                  <input
+                    type="range"
+                    class="custom-range"
+                    min="0"
+                    max="5"
+                    id="customRange2"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <p class="text-left">
+                    5. Would you order from us again?
+                  </p>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      name="group1"
+                      type="radio"
+                      id="radio-379"
+                      value="option3"
+                    />
+                    <label class="form-check-label" for="radio-379">Yes</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      name="group1"
+                      type="radio"
+                      id="radio-479"
+                      value="option4"
+                    />
+                    <label class="form-check-label" for="radio-479">No</label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"
+                    >6. If no, please state your reason</label
+                  >
+                  <textarea
+                    class="form-control"
+                    placeholder="answer here"
+                    id="exampleFormControlTextarea1"
+                    rows="1"
+                  ></textarea>
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"
+                    >7. Lastly, is there anything you would like us to improve
+                    on?</label
+                  >
+                  <textarea
+                    class="form-control"
+                    placeholder="answer here"
+                    id="exampleFormControlTextarea1"
+                    rows="1"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

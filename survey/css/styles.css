@@ -1,0 +1,24 @@
+.form-control {
+  width: 27rem !important;
+  display: inline-block !important;
+  /* margin-left: 0.5rem; */
+}
+.navbrand {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+
+  color: black;
+}
+
+.nav {
+  height: 3rem;
+}
+
+.foodies {
+  color: purple;
+}
+
+.navname {
+  color: black;
+}
